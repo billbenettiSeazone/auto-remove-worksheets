@@ -4,19 +4,19 @@ Python script to remove worksheets on the Airbnb_01 SpreadSheet.
 The script removes the sheets **"Datas Livres"** and **"TO"**, that contais long terms of VBA Scripts.
 
 ## Running
-> Run the following commands:
+> - Run the following commands:
 ```
 pip3 install -r requirements.txt
 ```
-> Make run.sh an executable file with: 
+> - Make run.sh an executable file with: 
 ``` bash
 chmod +x job.sh
 ```
-> Then run:
+> - Then run:
 ```bash
 ./remove
 ``` 
-> **OR** execute directly with:
+> - **OR** execute directly with:
 ``` bash
 python3 tab_remove.py /path/to/your/file
 ```
