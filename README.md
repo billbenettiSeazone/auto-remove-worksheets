@@ -9,17 +9,17 @@ The script removes the sheets **"Datas Livres"** and **"TO"**, that contais long
 > - Navigate to the path you cloned
 > - Run the following commands:
 ```
-pip3 install -r requirements.txt
+    pip3 install -r requirements.txt
 ```
 > - Make run.sh an executable file with: 
 ``` bash
-chmod +x job.sh
+    chmod +x job.sh
 ```
 > - Then run:
 ```bash
-./remove
+    ./remove
 ``` 
 > - **OR** execute directly with:
 ``` bash
-python3 tab_remove.py /path/to/your/file
+    python3 tab_remove.py /path/to/your/file
 ```
